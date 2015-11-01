@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Tabbed Content</title>
+    <meta charset="utf-8" />
+	<title>Login Form</title>
+	<script src="tabcontent.js" type="text/javascript"></script>
+    <link href="template1/tabcontent.css" rel="stylesheet" type="text/css" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		
+	<link href="assets/css/pages/login-soft.css" rel="stylesheet" type="text/css"/>
+
+    <script src="tabcontent.js" type="text/javascript"></script>
+    <link href="template5/tabcontent.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!--webfonts-->
+	
+</head>
+<body>
+    <center><img src="hrm.jpg"></center>
+    <div style="width: 700px; margin: 0 auto; padding: 30px 0 40px;">
+        <ul class="tabs" data-persist="true">
+            <li><a href="#view1">NGOs</a></li>
+            <li><a href="#view2">Blood Bank</a></li>
+            <li><a href="#view3">Generic Medical Stores</a></li>
+            <li><a href="#view4">Donations</a></li>
+            <li><a href="#view5">Hospitals</a></li>
+        </ul>
+        <div class="tabcontents">
+       
+            <div id="view1">
+                     <div class="logo"></div>
+					  <form method="post" action="index.php">
+					 
+                     <div class="login-block">
+                        <h1>Login</h1>
+                        <input type="text" value="" placeholder="Phone Number" name ="phone_no" />
+                        <input type="password" value="" placeholder="Password" name="password" />
+                        <button>Submit</button><br><br>
+                        <button><a href="#">Register</a></button>
+					</form>
+					
+                    </div>
+                      
+					
+            </div>
+            <div id="view2">
+            
+                     <div class="logo"></div>
+                     <div class="login-block">
+					 <form method="post" action="blood_bank.html">
+                        <h1>Login</h1>
+                        <form action="index.php">
+                        <input type="text" value="" placeholder="Phone Number" name ="phone_no" />
+                        <input type="password" value="" placeholder="Password"name="password" />
+                        <button>Submit</button><br><br>
+						  <button><a href="#">Register</a></button>
+                        </form>
+                    </div>
+            
+            </div>
+            <div id="view3">
+            <form method="post" action="index_medical.php">
+                     <div class="logo"></div>
+                     <div class="login-block">
+                        <h1>Login</h1>
+                        <input type="text" value="" placeholder="Phone Number" name ="phone_no" />
+                        <input type="password" value="" placeholder="Password" name="password" />
+                        <button>Submit</button><br><br>
+						  <button><a href="#">Register</a></button>
+                    </div>
+                    </form>
+					
+            </div>
+           
+            <div id="view4">
+                     <div class="logo"></div>
+                     <div class="login-block">
+					  <form method="post" action="donation.php">
+                        <h1>Search</h1>
+                        <input type="text" value="" placeholder="Pincode" name ="pincode"  />
+                        <button>Search NGOs</button><br><br>
+				
+						  </form>
+                    </div>
+                    
+            </div>
+            
+            <div id="view5">
+                     <div class="logo"></div>
+                     <div class="login-block">
+                     <form method="post" action="phc.html">
+                        <h1>Login</h1>
+                        <input type="text" value="" placeholder="Phone Number" name ="phone_no" />
+                        <input type="password" value="" placeholder="Password" name="password" />
+                        <button>Submit</button><br><br>
+                        
+						  <button><a href="#">Register</a></button>
+                          <form>
+                    </div>
+            </div>
+            
+			
+        </div>
+    </div>
+</body>
+</html>
